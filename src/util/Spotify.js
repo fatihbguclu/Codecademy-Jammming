@@ -1,6 +1,6 @@
 
 const clientId = "388accba3d1745e89fffc78ad1e83335";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "http://frail-north.surge.sh/";
 const apiUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 
 let userAccessToken = undefined;
